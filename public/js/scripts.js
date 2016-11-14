@@ -77,9 +77,9 @@ var TopBarBox = React.createClass({
 
             <section className="top-bar-section">
                 <ul className="right">
-                    <li><a href=""><i className="fa fa-code" aria-hidden="true"></i> GitHub</a></li>
-                    <li><a href=""><i className="fa fa-code" aria-hidden="true"></i> Download</a></li>
-                    <li><a href=""><i className="fa fa-code" aria-hidden="true"></i> Twitter</a></li>
+                    <li><a href=""><i className="fa fa-code" aria-hidden="true"></i></a></li>
+                    <li><a href=""><i className="fa fa-code" aria-hidden="true"></i></a></li>
+                    <li><a href=""><i className="fa fa-code" aria-hidden="true"></i></a></li>
                 </ul>
             </section>
         </nav>
