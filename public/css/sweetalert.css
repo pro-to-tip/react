@@ -341,7 +341,7 @@ body.stop-scrolling {
         transform: rotate(-45deg); }
       .sweet-alert .sa-icon.sa-success .sa-line {
         height: 5px;
-        background-color: #A5DC86;
+        background-color: #4CAF50;
         display: block;
         border-radius: 2px;
         position: absolute;
