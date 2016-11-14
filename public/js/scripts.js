@@ -1,4 +1,4 @@
-var socket = io.connect('https://chat-server-heroku.herokuapp.com/');
+var socket = io.connect('https://onionchat.herokuapp.com');
 socket.on('connect', addUser);
 socket.on('updatechat', processMessage);
 socket.on('updateusers', updateUserList);
