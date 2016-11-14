@@ -90,7 +90,7 @@ var TopBarBox = React.createClass({
 var ChatNoticeBox = React.createClass({
     render: function() {
         return (
-            <p><span id="#greeting"></span> <a href="">логи</a> <a href="">терминал</a>, <a href="">статус</a>, <a href="">монитор</a> / <a href="">протокол</a></p>
+            <p><span id="#greeting"></span> <a href="">логи</a> / <a href="">терминал</a> / <a href="">статус</a> / <a href="">монитор</a> / <a href="">протокол</a></p>
         )
     }
 });
