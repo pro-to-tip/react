@@ -109,7 +109,7 @@ var MessageBox = React.createClass({
         var data = document.getElementById('data');
         message = message.replace(/<(?:.|\n)*?>/gm, '');
         if(!message) {
-            sweetAlert("Oops...", "You've didn\'t entered a message!", "error");
+            sweetAlert("Oops...", "ошибка", "error");
         } else {
             socket.emit('sendchat', message);
         }
