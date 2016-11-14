@@ -12,7 +12,7 @@ function addUser() {
         showCancelButton: false,
         closeOnConfirm: false,
         animation: "slide-from-top",
-        inputPlaceholder: ""
+        inputPlaceholder: "***"
     }, function(inputValue){
         if (inputValue === false) return false;
         if (inputValue === "") {
