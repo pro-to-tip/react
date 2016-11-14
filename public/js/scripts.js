@@ -129,7 +129,7 @@ var MessageBox = React.createClass({
             <div>
                 <input id="data" placeholder="сообщение.." onChange={this.handleMessageChange} onKeyUp={this.handleKeyPress} />
                 <input id="datasend" className="button send-msg" type="button" onClick={this.handleClick} value="отправить" />
-            </div>  <iframe src='https://pro-to-tip.github.io/Assets/jsnews/index.html' frameborder='0' allowfullscreen> </iframe>
+            </div>
         )
     },
 });
