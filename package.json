@@ -1,0 +1,27 @@
+{
+  "name": "chat-server",
+  "version": "1.0.0",
+  "description": "A basic chat server usign WebSockets and Socket.io",
+  "main": "app.js",
+  "scripts": {
+     "start": "node app.js"
+  },
+  "engines": {
+    "node": "~5.0.2",
+    "npm": "~3.3.12"
+  },
+  "keywords": [
+    "chat",
+    "websockets",
+    "socket.io",
+    "server",
+    "nodejs"
+  ],
+  "author": "Edvins Antonovs",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+      "express": "3.0.x",
+      "socket.io": "0.9.x"
+  }
+}

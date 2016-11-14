@@ -1,0 +1,156 @@
+/* Overwriting defaul styles */
+.top-bar {
+    background: #2c3e50 !important;
+}
+.top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name h4 a, .top-bar .name p a, .top-bar .name span a {
+    font-weight: bold !important;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+    font-weight: bold !important;
+    background: #2c3e50 !important;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+.top-bar .name h1 a {
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+.top-bar.expanded .toggle-topbar a {
+    color: #fff !important;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+.top-bar.expanded .toggle-topbar a span::after {
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    box-shadow: 0 0 0 1px #fff,0 7px 0 1px #fff,0 14px 0 1px #fff;
+}
+p a {
+    color: #2c3e50 !important;
+    border-bottom: 1px dotted #2c3e50 !important;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+p a:hover {
+    color: #f39c12 !important;
+    border-bottom: 1px dotted #f39c12 !important;
+}
+.sweet-alert button {
+    background: #2c3e50 !important;
+}
+.sweet-alert input:focus {
+    box-shadow: 0px 0px 3px #2c3e50;
+    border: 1px solid #2c3e50;
+}
+.sweet-overlay {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=65)";
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+/* Main styles */
+body, p, a, span, li, h1, h2, h3, h4, h5, h6, button, .button {
+    font-family: 'Inconsolata', monospace !important;
+}
+.body-wrap {
+    height: 600px;
+}
+
+#users-wrap {
+    padding: 30px 0 0 30px;
+}
+
+#chat-wrap {
+    padding-top: 30px;
+    height: inherit;
+}
+
+#chat-wrap #chat-notice {
+    margin-bottom: 10px;
+    border: 1px dotted #2c3e50;
+    text-align: center;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+#chat-wrap #chat-notice p {
+    margin-bottom: 0;
+}
+
+#chat-wrap .conversationContainer {
+    height: inherit;
+    overflow: auto;
+    border: 1px dotted #2c3e50;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+
+#message-wrap {
+    padding: 30px 30px 0 0;
+}
+
+#message-wrap #data {
+    box-shadow: none;
+    border: 1px dotted #2c3e50;
+    border-radius: 5px;
+    height: 2.8rem;
+}
+
+#message-wrap #data:focus {
+    box-shadow: 0px 0px 3px #2c3e50;
+    border: 1px solid #2c3e50;
+}
+
+#message-wrap .send-msg {
+    width: 100%;
+    background: #2c3e50 !important;
+    font-weight: bold;
+    border-radius: 5px;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+#message-wrap .send-msg:hover {
+    color: #f39c12 !important;
+}
+
+/* RWD */
+@media only screen and (max-width: 40.0625em) {
+    .body-wrap {
+        height: 300px;
+    }
+    #message-wrap {
+        padding: 95px 15px 0;
+    }
+    .top-bar-section li:not(.has-form) a:not(.button):hover, .top-bar .name h1 a:hover {
+        color: #fff !important;
+    }
+}
+
+@media only screen and (min-width: 40.0625em) {
+    .body-wrap {
+        height: 550px;
+    }
+    #message-wrap {
+        padding: 45px 15px 0;
+    }
+}
+
+@media only screen and (min-width: 64.0625em) {
+    #message-wrap {
+        padding: 30px 30px 0 0;
+    }
+}
